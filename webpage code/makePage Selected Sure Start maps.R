@@ -69,6 +69,37 @@ map_me %>%
   tm_layout(title = 'Wards covered by Blossom Sure Start in 2009 (based on former Sure Start website)') +
   tm_basemap("OpenStreetMap") 
 
+
+sure_start_2009$`sure start centre` %>% table
+
+sure_start_2009 %>%
+  filter(`sure start centre` == 'Cherish Sure Start') 
+
+map_me %>%
+  filter(`sure start centre` == 'Cherish Sure Start') %>% 
+  tm_shape() +
+  tm_borders(col = 'blue') +
+  tm_fill(alpha = 0.3) +
+  tm_text('WARDS', col = 'blue', size = 0.8) +
+  tm_layout(title = 'Wards covered by Cherish Sure Start in 2009 (based on former Sure Start website)') +
+  tm_basemap("OpenStreetMap") 
+
+
+
+sure_start_2009 %>% 
+  filter(`sure start centre` == 'South Belfast Sure Start') 
+
+map_me %>%
+  filter(`sure start centre` == 'South Belfast Sure Start') %>% 
+  tm_shape() +
+  tm_borders(col = 'blue') +
+  tm_fill(alpha = 0.3) +
+  tm_text('WARDS', col = 'blue', size = 0.8) +
+  tm_layout(title = 'Wards covered by South Belfast Sure Start in 2009 (based on former Sure Start website)') +
+  tm_basemap("OpenStreetMap") 
+
+
+
 ?tm_basemap
 ?tm_layout
 
