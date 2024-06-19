@@ -1,0 +1,187 @@
+sure start centre,inputted_ward,bestMatch,bestMatchId,bestScore,others,bestLGD,bestCode
+SMILE Sure Start,Mount Vernon and Shore Crescent (Castleview),Boho Cleenish and Letterbreen,355,0.2727272727272727,Bonamargy and Rathlin|Mount Sandel,Fermanagh,95PP04
+Colin Neighbourhood Sure Start,Lagmore (Derriaghy),Derryaghy,411,0.42105263157894735,Dromore North|Moneyreagh,Lisburn,95SS07
+Coleraine Sure Start,Knocklyn and University,University,233,0.4347826086956522,Knocklynn|Knocknashane,Coleraine,95JJ21
+Abbey Sure Start,Valley and Whitehouse,Whitehouse,520,0.47619047619047616,Callan Bridge|Ballyhanwood,Newtownabbey,95WW25
+SMILE Sure Start,York Park (Fortwilliam),Fortwilliam,145,0.4782608695652174,Markethill|Rathfriland,Belfast,95GG24
+Cherish Sure Start,Kesh,West,582,0.5,Slemish|Keady,Strabane,95ZZ16
+Horizon Sure Start,Ballyloran and Craigyhill,Ballyhoe and Corkey,89,0.52,Ballycraigy|Ballynafeigh,Ballymoney,95EE01
+East Belfast Sure Start,Ballymacarett Woodstock,Ballymacarrett,125,0.5217391304347826,Ballyclare North|Ballyclare South,Belfast,95GG04
+Dalriada Sure Start,Moyarget,Moygashel,349,0.5555555555555556,Moat|Tullycarnet,Dungannon,95OO20
+Shantallow Sure Start,Culmore Area,Culmore,289,0.5833333333333333,Dromore North|Clonard,Derry,95MM13
+Shankill Sure Start,Shankill Road,Shankill,161,0.6153846153846154,Shantallow East|Shantallow West,Belfast,95GG40
+Dalriada Sure Start,Mosside,Roeside,402,0.7142857142857143,Mossley|Bannside,Limavady,95RR13
+Cherish Sure Start,Ederney and Lack,Kesh Ederney and Lack,365,0.7619047619047619,Belleek and Boa|Derrygonnelly,Fermanagh,95PP14
+Orana Sure Start,St. Marys,St Mary's,492,0.7777777777777778,St Patrick's|Town Parks,Newry and Mourn,95VV27
+Outer West Belfast Sure Start,Glen Rd,Glen Road,146,0.7777777777777778,Glenarm|Glenderg,Belfast,95GG25
+Orana Sure Start,St. Patricks,St Patrick's,493,0.8333333333333334,Seapatrick|St Mary's,Newry and Mourn,95VV28
+Ballymena South Sure Start,Dunclag,Dunclug,75,0.8571428571428572,Dunloy|Duncairn,Ballymena,95DD11
+Blossom Sure Start,Cocrain,Corcrain,258,0.875,Gortin|Macosquin,Craigavon,95LL08
+Splash Sure Start,Drumgas,Drumgask,262,0.875,Drumglass|Drumgor,Craigavon,95LL12
+Little Hands Sure Start,Creevagh,Crevagh,288,0.875,Cregagh|Garvagh,Derry,95MM12
+Glenbrook Sure Start,Ligoniel,Legoniel,153,0.875,Highfield|Cliftonville,Belfast,95GG32
+Shantallow Sure Start,Carnhill,Carn Hill,282,0.8888888888888888,Cairnshill|Cavehill,Derry,95MM06
+Dalriada Sure Start,Glentaise,Glentaisie,462,0.9,Glencairn|Glenravel,Moyle,95UU12
+Ballymena South Sure Start,Fairgreen,Fair Green,77,0.9,Massereene|Fairy Water,Ballymena,95DD13
+Horizon Sure Start,Northlands,Northland,185,0.9,Oaklands|Sunnylands,Carrickfergus,95HH13
+Clogher Valley Sure Start,Anghnacloy,Aughnacloy,332,0.9,Aghanloo|Aghagallon,Dungannon,95OO03
+Orana Sure Start,Daisyhill,Daisy hill,475,0.9,Fairhill|Craigy Hill,Newry and Mourn,95VV10
+Coleraine Sure Start,Churchlands,Churchland,218,0.9090909090909091,Northland|Sunnylands,Coleraine,95JJ06
+Coleraine Sure Start,CrossGlebe,Cross Glebe,219,0.9090909090909091,Crossmaglen|Crossgar,Coleraine,95JJ07
+Waterside Sure Start,Clondermott,Clondermot,284,0.9090909090909091,Clandeboye|Charlemont,Derry,95MM08
+Colin Neighbourhood Sure Start,Colin Glen,Collin Glen,410,0.9090909090909091,Crossmaglen|Clonallan,Lisburn,95SS06
+SMILE Sure Start,Waterworks,Water Works,168,0.9090909090909091,Whiterock|Waterside,Belfast,95GG47
+South Belfast Sure Start,Shaftsbury,Shaftesbury,160,0.9090909090909091,Crawfordsburn|Harbour,Belfast,95GG39
+Dalriada Sure Start,Dunserverick,Dunseverick,457,0.9166666666666666,Dervock|Seapatrick,Moyle,95UU07
+G-Old Community Sure Start,Gortalowry,Gortalowry,238,1,Portaferry|Gortalee,Cookstown,95KK04
+G-Old Community Sure Start,Oldtown,Oldtown,245,1,Monkstown|Jordanstown,Cookstown,95KK11
+G-Old Community Sure Start,Killymoon,Killymoon,240,1,Killyman|Killycrot,Cookstown,95KK06
+G-Old Community Sure Start,Ardboe,Ardboe,235,1,Ardoyne|Gardenmore,Cookstown,95KK01
+Dalriada Sure Start,Armoy,Armoy,451,1,Moy|Ardoyne,Moyle,95UU01
+Dalriada Sure Start,Bushmills,Bushmills,454,1,Clogh Mills|Sion Mills,Moyle,95UU04
+Dalriada Sure Start,Ballylough,Ballylough,452,1,Ballyloughan|Ballyloran,Moyle,95UU02
+Dalriada Sure Start,Dalriada,Dalriada,456,1,Clady|Carnany,Moyle,95UU06
+Dalriada Sure Start,Kinbane,Kinbane,463,1,Lisbane|Kilfennan,Moyle,95UU13
+Dalriada Sure Start,Knocklayd,Knocklayd,464,1,Knockagh|Knocklynn,Moyle,95UU14
+Dalriada Sure Start,Bonamargy and Rathlin,Bonamargy and Rathlin,453,1,Donaghadee North|Magheralin,Moyle,95UU03
+Coleraine Sure Start,Ballysally,Ballysally,215,1,Ballykelly|Ballysillan,Coleraine,95JJ03
+Coleraine Sure Start,Central,Central,25,1,Central|Central,Ards,95BB06
+Ballymena South Sure Start,Ballykeel,Ballykeel,69,1,Ballykelly|Ballee,Ballymena,95DD05
+Ballymena South Sure Start,Ballee,Ballee,68,1,Balloo|Ballykeel,Ballymena,95DD04
+Ballymena South Sure Start,Moat,Moat,84,1,Fort|Moy,Ballymena,95DD20
+Ballymena South Sure Start,Harryville,Harryville,82,1,Cherryvalley|Antiville,Ballymena,95DD18
+Ballymena South Sure Start,Castle Demesne,Castle Demesne,72,1,Castlewellan|Castledawson,Ballymena,95DD08
+Ballymena South Sure Start,Summerfield,Summerfield,88,1,Bluefield|Hopefield,Ballymena,95DD24
+Abbey Sure Start,Abbey,Abbey,496,1,Abbey Park|Agivey,Newtownabbey,95WW01
+Abbey Sure Start,Cloughfern,Cloughfern,505,1,Clogher|Loughries,Newtownabbey,95WW10
+Abbey Sure Start,Coole,Coole,507,1,Toome|Coolessan,Newtownabbey,95WW12
+Abbey Sure Start,Dunanney,Dunanney,509,1,Drumanaway|Dunminning,Newtownabbey,95WW14
+Abbey Sure Start,Monkstown,Monkstown,516,1,Brownstown|Gregstown,Newtownabbey,95WW21
+Horizon Sure Start,Sunnylands,Sunnylands,186,1,Oaklands|Upperlands,Carrickfergus,95HH14
+Horizon Sure Start,Clipperstown,Clipperstown,177,1,Draperstown|Gregstown,Carrickfergus,95HH05
+Horizon Sure Start,Love Lane,Love Lane,183,1,Lower Braniel|Lower Glenshane,Carrickfergus,95HH11
+Horizon Sure Start,Antiville,Antiville,375,1,Harryville|Woodville,Larne,95QQ01
+Dungannon Sure Start,Ballysaggart,Ballysaggart,334,1,Ballymaglave|Ballymaguigan,Dungannon,95OO05
+Dungannon Sure Start,Benburb,Benburb,335,1,Pennyburn|Bryansburn,Dungannon,95OO06
+Dungannon Sure Start,Coalisland South,Coalisland South,340,1,Coalisland North|Creggan South,Dungannon,95OO11
+Dungannon Sure Start,Coolhill,Coolhill,342,1,Ahoghill|Cavehill,Dungannon,95OO13
+Dungannon Sure Start,Drumglass,Drumglass,344,1,Drumgask|Ardglass,Dungannon,95OO15
+Dungannon Sure Start,Killymeal,Killymeal,347,1,Killylea|Killyman,Dungannon,95OO18
+Dungannon Sure Start,Moygashel,Moygashel,349,1,Mossley|Mount Sandel,Dungannon,95OO20
+Dungannon Sure Start,Mullaghmore,Mullaghmore,350,1,Donaghmore|Donaghmore,Dungannon,95OO21
+Dungannon Sure Start,Castlecaulfield,Castlecaulfield,337,1,Castlecoole|Castleview,Dungannon,95OO08
+Clogher Valley Sure Start,Augher,Augher,331,1,Banagher|Clogher,Dungannon,95OO02
+Clogher Valley Sure Start,Ballygawley,Ballygawley,333,1,Ballyrainey|Ballysally,Dungannon,95OO04
+Clogher Valley Sure Start,Clogher,Clogher,338,1,Cloughfern|Killyclogher,Dungannon,95OO09
+Clogher Valley Sure Start,Fivemiletown,Fivemiletown,345,1,Irvinestown|Randalstown,Dungannon,95OO16
+South Armagh Sure Start,Bessbrook,Bessbrook,468,1,Ladybrook|Twinbrook,Newry and Mourn,95VV03
+South Armagh Sure Start,Carnlough,Carnlough,380,1,Camlough|Murlough,Larne,95QQ06
+South Armagh Sure Start,Creggan,Creggan,473,1,Cregagh|Creggan South,Newry and Mourn,95VV08
+South Armagh Sure Start,Crossmaglen,Crossmaglen,474,1,Cross Glebe|Crossgar,Newry and Mourn,95VV09
+South Armagh Sure Start,Derrymore,Derrymore,477,1,Derrynoose|Derryboy,Newry and Mourn,95VV12
+South Armagh Sure Start,Newtownhamilton,Newtownhamilton,487,1,Newtownsaville|Newtownbutler,Newry and Mourn,95VV22
+Orana Sure Start,Ballybot,Ballybot,467,1,Ballymote|Ballybay,Newry and Mourn,95VV02
+Orana Sure Start,Drumalane,Drumalane,479,1,Drumglass|Drumanaway,Newry and Mourn,95VV14
+Orana Sure Start,Drumgullion,Drumgullion,480,1,Drumquin|Crumlin,Newry and Mourn,95VV15
+Orana Sure Start,Windsor Hill,Windsor Hill,495,1,Windsor|Rich Hill,Newry and Mourn,95VV30
+Blossom Sure Start,Annagh,Annagh,252,1,Enagh|Donagh,Craigavon,95LL02
+Blossom Sure Start,Ballybay,Ballybay,253,1,Ballybot|Ballysally,Craigavon,95LL03
+Blossom Sure Start,Ballyoran,Ballyoran,254,1,Ballyloran|Ballygowan,Craigavon,95LL04
+Blossom Sure Start,Brownstown,Brownstown,256,1,Irvinestown|Jordanstown,Craigavon,95LL06
+Blossom Sure Start,Tavanagh,Tavanagh,273,1,Annagh|Tonagh,Craigavon,95LL23
+Splash Sure Start,Church,Church,257,1,Wynchurch|Churchill,Craigavon,95LL07
+Splash Sure Start,Court,Court,259,1,Fort|Church,Craigavon,95LL09
+Splash Sure Start,Drumgor,Drumgor,263,1,Drumbo|Drumgask,Craigavon,95LL13
+Splash Sure Start,Drumnamoe,Drumnamoe,264,1,Dunnamore|Drumanaway,Craigavon,95LL14
+Splash Sure Start,Taghnevan,Taghnevan,272,1,Maghera|Magheralin,Craigavon,95LL22
+Strabane Sure Start,North,North,576,1,Fort|South,Strabane,95ZZ10
+Strabane Sure Start,South,South,580,1,Route|North,Strabane,95ZZ14
+Strabane Sure Start,East,East,572,1,West|Keady,Strabane,95ZZ06
+Strabane Sure Start,West,West,582,1,Westland|Forest,Strabane,95ZZ16
+Strabane Sure Start,Ballycolman,Ballycolman,568,1,Ballycrochan|Ballygowan,Strabane,95ZZ02
+Strabane Sure Start,Sion Mills,Sion Mills,578,1,Clogh Mills|Stranmillis,Strabane,95ZZ12
+Strabane Sure Start,Finn,Finn,573,1,Fintona|Finaghy,Strabane,95ZZ07
+Strabane Sure Start,Dunnamanagh,Dunnamanagh,571,1,Dunnamore|Tavanagh,Strabane,95ZZ05
+Strabane Sure Start,Plumbridge,Plumbridge,577,1,Mayobridge|Collinbridge,Strabane,95ZZ11
+Little Hands Sure Start,Springtown,Springtown,302,1,Waringstown|Ebrington,Derry,95MM26
+Little Hands Sure Start,Rosemount,Rosemount,299,1,The Mount|Holly Mount,Derry,95MM23
+Shantallow Sure Start,Shantallow East,Shantallow East,300,1,Shantallow West|Shankill,Derry,95MM24
+Shantallow Sure Start,Shantallow West,Shantallow West,301,1,Shantallow East|Banbridge West,Derry,95MM25
+Cherish Sure Start,Irvinestown,Irvinestown,364,1,Brownstown|Waringstown,Fermanagh,95PP13
+Cherish Sure Start,Lisnarrick,Lisnarrick,367,1,Lisnacree|Lisnagarvey,Fermanagh,95PP16
+Cherish Sure Start,Ballinamallard,Ballinamallard,352,1,Ballynashallog|Ballymaglave,Fermanagh,95PP01
+Cherish Sure Start,Trillick,Trillick,566,1,Fortwilliam|Stranmillis,Omagh,95YY21
+Cherish Sure Start,Devenish,Devenish,360,1,Slemish|Dunseverick,Fermanagh,95PP09
+Cherish Sure Start,Rosslea,Rosslea,372,1,Mossley|Rostulla,Fermanagh,95PP21
+Cherish Sure Start,Newtownbutler,Newtownbutler,370,1,Newtownbreda|Newtownsaville,Fermanagh,95PP19
+Dungiven Sure Start,The Highlands,The Highlands,403,1,The Diamond|Greenisland,Limavady,95RR14
+Dungiven Sure Start,Dungiven,Dungiven,393,1,Dunminning|Duncairn,Limavady,95RR04
+Dungiven Sure Start,Feeny,Feeny,395,1,Demesne|Glenavy,Limavady,95RR06
+Dungiven Sure Start,Upper Glenshane,Upper Glenshane,404,1,Lower Glenshane|Portglenone,Limavady,95RR15
+Dungiven Sure Start,Glack,Glack,397,1,Blackhead|Gilnahirk,Limavady,95RR08
+Dungiven Sure Start,Coolessan,Coolessan,392,1,Lissan|Coole,Limavady,95RR03
+Dungiven Sure Start,Greystone,Greystone,10,1,Greystone|Gregstown,Antrim,95AA10
+Last Sure Start,Lisanelly,Lisanelly,560,1,Lisbane|Lisbellaw,Omagh,95YY15
+Last Sure Start,Drumragh,Drumragh,554,1,Drumgask|Drumnamoe,Omagh,95YY09
+Last Sure Start,Killyclogher,Killyclogher,559,1,Killylea|Killycrot,Omagh,95YY14
+Last Sure Start,Camowen,Camowen,547,1,Carnmoney|Carnmoon,Omagh,95YY02
+Last Sure Start,Strule,Strule,564,1,Steeple|Stiles,Omagh,95YY19
+Last Sure Start,Fintona,Fintona,556,1,Finn|Victoria,Omagh,95YY11
+Last Sure Start,Termon,Termon,565,1,Stormont|Belmont,Omagh,95YY20
+Edenballymore Sure Start,Brandywell,Brandywell,281,1,Cranfield|Ballykeel,Derry,95MM05
+Edenballymore Sure Start,The Diamond,The Diamond,304,1,The Mount|The Highlands,Derry,95MM28
+Edenballymore Sure Start,Westland,Westland,306,1,Island|Strand,Derry,95MM30
+Edenballymore Sure Start,Strand,Strand,231,1,Strand|Westland,Coleraine,95JJ19
+Edenballymore Sure Start,Beechwood,Beechwood,280,1,Beechmount|Beechill,Derry,95MM04
+Edenballymore Sure Start,Creggan Central,Creggan Central,286,1,Creggan South|Kilkeel Central,Derry,95MM10
+Edenballymore Sure Start,Creggan South,Creggan South,287,1,Creggan Central|Coalisland South,Derry,95MM11
+Rainbow Sure Start,Castlederg,Castlederg,569,1,Castleview|Castlerock,Strabane,95ZZ03
+Rainbow Sure Start,Glenderg,Glenderg,574,1,Glenarm|Glendun,Strabane,95ZZ08
+Rainbow Sure Start,Clare,Clare,570,1,Clady|Clonard,Strabane,95ZZ04
+Rainbow Sure Start,Drumquin,Drumquin,553,1,Drumgullion|Crumlin,Omagh,95YY08
+Rainbow Sure Start,Newtownstewart,Newtownstewart,575,1,Newtownbreda|Portstewart,Strabane,95ZZ09
+Waterside Sure Start,Victoria,Victoria,187,1,Victoria|Victoria Bridge,Carrickfergus,95HH15
+Waterside Sure Start,Ebrington,Ebrington,290,1,Springtown|Eglinton,Derry,95MM14
+Waterside Sure Start,Enagh,Enagh,292,1,Enagh|Annagh,Derry,95MM16
+Glenbrook Sure Start,Ardoyne,Ardoyne,123,1,Ardboe|Armoy,Belfast,95GG02
+Glenbrook Sure Start,Cliftonville,Cliftonville,138,1,Woodville|Antiville,Belfast,95GG17
+East Belfast Sure Start,Island,Island,150,1,Westland|Lisbane,Belfast,95GG29
+East Belfast Sure Start,The Mount,The Mount,165,1,The Cut|Beechmount,Belfast,95GG44
+East Belfast Sure Start,Enler,Enler,199,1,Glenderg|Edenderry,Castlereagh,95II10
+East Belfast Sure Start,Tullycarnet,Tullycarnet,210,1,Ballymacarrett|Ballyrainey,Castlereagh,95II21
+Colin Neighbourhood Sure Start,Twinbrook,Twinbrook,433,1,Ladybrook|Bessbrook,Lisburn,95SS29
+Colin Neighbourhood Sure Start,Poleglass,Poleglass,430,1,Ardglass|Drumglass,Lisburn,95SS26
+Colin Neighbourhood Sure Start,Old Warren,Old Warren,429,1,Craigywarren|Glencairn,Lisburn,95SS25
+Colin Neighbourhood Sure Start,Kilwee,Kilwee,420,1,Killeen|Kilrea,Lisburn,95SS16
+Lower Ards Peninsula Sure Start,Scrabo,Scrabo,41,1,Strand|Strand,Ards,95BB22
+Lower Ards Peninsula Sure Start,Portavogie,Portavogie,40,1,Portaferry|Gortalee,Ards,95BB21
+Lower Ards Peninsula Sure Start,Kircubbin,Kircubbin,34,1,Killycomain|Crumlin,Ards,95BB15
+Lower Ards Peninsula Sure Start,Ballywalter,Ballywalter,22,1,Ballyrainey|Ballyward,Ards,95BB03
+Lower Ards Peninsula Sure Start,Portaferry,Portaferry,39,1,Gortalowry|Portstewart,Ards,95BB20
+SMILE Sure Start,New Lodge,New Lodge,156,1,New Buildings|Newbuildings,Belfast,95GG35
+SMILE Sure Start,Duncairn,Duncairn,141,1,Glencairn|Dunnamore,Belfast,95GG20
+Downpatrick Sure Start,Cathedral,Cathedral,313,1,Maghera|Magheralin,Down,95NN07
+Downpatrick Sure Start,Killough,Killough,320,1,Murlough|Camlough,Down,95NN14
+Downpatrick Sure Start,Ballymote,Ballymote,310,1,Ballybot|Ballyholme,Down,95NN04
+Downpatrick Sure Start,Ardglass,Ardglass,307,1,Drumglass|Poleglass,Down,95NN01
+Downpatrick Sure Start,Audley's Acre,Audley's Acre,308,1,Abbey Park|Cullybackey,Down,95NN02
+Downpatrick Sure Start,Strangford,Strangford,328,1,Springfarm|Strand,Down,95NN22
+Downpatrick Sure Start,Quoile,Quoile,324,1,Quilly|Coole,Down,95NN18
+South Belfast Sure Start,Ballynafeigh,Ballynafeigh,126,1,Ballymaguigan|Ballycraigy,Belfast,95GG05
+South Belfast Sure Start,Botanic,Botanic,133,1,Atlantic|Blaris,Belfast,95GG12
+South Belfast Sure Start,Blackstaff,Blackstaff,131,1,Blackhead|Blackcave,Belfast,95GG10
+South Belfast Sure Start,Upper Malone,Upper Malone,166,1,Upper Braniel|Upper Glenshane,Belfast,95GG45
+Clan Mór Sure Start,Clonard,Clonard,139,1,Donard|Coolnagard,Belfast,95GG18
+Clan Mór Sure Start,Falls,Falls,142,1,Kells|Mallusk,Belfast,95GG21
+Shankill Sure Start,Highfield,Highfield,149,1,Hopefield|Saintfield,Belfast,95GG28
+Shankill Sure Start,Glencairn,Glencairn,147,1,Duncairn|Glencolin,Belfast,95GG26
+Shankill Sure Start,Woodvale,Woodvale,172,1,Woodville|Woodburn,Belfast,95GG51
+Shankill Sure Start,Ballysillan,Ballysillan,127,1,Ballysally|Ballycolman,Belfast,95GG06
+Shankill Sure Start,Crumlin,Crumlin,6,1,Crumlin|Drumquin,Antrim,95AA06
+Beechmount Sure Start,Beechmount,Beechmount,128,1,Belmont|The Mount,Belfast,95GG07
+Outer West Belfast Sure Start,Andersonstown,Andersonstown,122,1,Randalstown|Brownstown,Belfast,95GG01
+Outer West Belfast Sure Start,Glencolin,Glencolin,148,1,Glencairn|Glenaan,Belfast,95GG27
+Outer West Belfast Sure Start,Ladybrook,Ladybrook,152,1,Twinbrook|Bessbrook,Belfast,95GG31
+Saol Ur Sure Start,Falls Park,Falls Park,143,1,Wallace Park|Abbey Park,Belfast,95GG22
+Saol Ur Sure Start,Upper Springfield,Upper Springfield,167,1,Upper Braniel|Upper Malone,Belfast,95GG46
+Saol Ur Sure Start,Whiterock,Whiterock,169,1,Whitespots|Castlerock,Belfast,95GG48
