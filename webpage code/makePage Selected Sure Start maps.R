@@ -96,7 +96,7 @@ map_me %>%
   tm_fill(alpha = 0.3) +
   tm_text('WARDS', col = 'blue', size = 0.8) +
   tm_layout(title = 'Wards covered by South Belfast Sure Start in 2009 (based on former Sure Start website)') +
-  tm_basemap("OpenStreetMap") 
+  tm_basemap("OpenStreetMap", alpha = 0.7) 
 
 
 
