@@ -17,21 +17,33 @@ sure_start_2009 <-
   'data/national archive to nimdm wards (checked).csv' %>%
   read_csv
 
+## lookup
+osni_lookup_df <-
+  'data/osni (wards) to ward code lookup.csv' %>%
+  read_csv()
+
+
 ## Correct some names -----------------------------------------------
 wards_sf <-
   wards_sf %>%
   mutate(
+    osni_ward_lgd = paste(WARDS, LGD),
     wards_lower = WARDS %>% tolower %>% gsub(x=., ",", '')
   )
 
-sure_start_2009 <-
-  sure_start_2009 %>%
-  mutate(
-    wards_lower = bestMatch %>% tolower()
-  )
+wards_sf <-
+  wards_sf %>%
+  left_join(osni_lookup_df)
 
+wards_sf %>%
+  filter(ward_code %>% is.na)
 
 ### QA check joins  -------------------------------------------------
+
+sure_start_2009$bestMatch %>% duplicated()
+sure_start_2009$bestMatch %>% table() %>% sort()
+## why are there duplicated? -- due to data entry -- no real errors
+
 sure_start_2009 %>%
   filter(
     !( wards_lower %in% wards_sf$wards_lower )
@@ -44,7 +56,8 @@ sure_start_2009 <-
     wards_lower = wards_lower %>% gsub(x=., "audley's", 'audleys')
   )
 
-map_me <- wards_sf %>% left_join(sure_start_2009)
+map_me <- wards_sf %>% left_join(sure_start_2009, by = c(ward_code = 'bestCode'))
+map_me$bestMatch %>% is.na %>% summary
 
 map_me <-
   map_me %>%
