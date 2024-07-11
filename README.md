@@ -10,7 +10,7 @@ The purpose of this repository is to format information on Sure Start coverage i
 
 For those interested in the cleaned data, the table of wards covered by Sure Start is contained in the `data` folder as `national archive to nimdm wards (checked).csv`. This table contains the ward codes and names of Sure Start wards (using 1992 ward boundaries—the geographical unit used at the time). 
 
-Interactive maps of the coverage areas for each Sure Start ward are in the `docs` folder and can be viewed on the (project page)[https://menglezhang.github.io/sure-start-historical-website/sure-start-map] for this repository or as html files in the `docs` folder. The code and data for the maps are in `webpage code` and `data`.
+Interactive maps of the coverage areas for each Sure Start ward are in the `docs` folder and can be viewed on the [project page](https://menglezhang.github.io/sure-start-historical-website/sure-start-map) for this repository or as html files in the `docs` folder. The code and data for the maps are in `webpage code` and `data`.
 
 
 
