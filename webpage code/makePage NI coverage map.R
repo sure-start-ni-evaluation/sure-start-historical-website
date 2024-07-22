@@ -65,7 +65,6 @@ sure_start_2009 %>%
 
 map_me <- wards_sf %>% left_join(sure_start_2009, by = c(ward_code = 'bestCode'))
 
-
 map_me %>% st_crs
 map_me$bestMatch %>% is.na %>% summary
 
@@ -93,8 +92,26 @@ ward_layer <-
 
 
 
+ss_centres_3miles <- 
+  ss_centres_sf %>%
+  filter(opened == '<2006') %>% 
+  st_buffer(dist = 4.828e3 ) #3 miles pram pushing buffer
+
 ward_layer + 
-  (ss_centres_sf %>%
+  (ss_centres_3miles %>%
   tm_shape() +
-  tm_dots()
+  tm_dots() +
+  tm_borders()
   )
+
+
+
+## omit 3 miles
+
+map_me[ss_centres_3miles, ] ## 294 wards - almost half of NI 
+with3miles = wards_sf[ss_centres_3miles, ]
+
+with3miles %>% 
+  select(wards_lower, ward_code) %>%
+  write_csv('data/omit 3 miles of centre.csv')
+  
