@@ -23,6 +23,13 @@ osni_lookup_df <-
   read_csv()
 
 
+## points file of coordinate
+ss_centres_sf <- 
+  st_read(
+    'data/sure start centres.geojson'
+  )
+
+
 ## Correct some names -----------------------------------------------
 wards_sf <-
   wards_sf %>%
@@ -50,13 +57,16 @@ sure_start_2009 %>%
   )
 
 ## take the apostrophe out of audley's acre
-sure_start_2009 <-
-  sure_start_2009 %>%
-  mutate(
-    wards_lower = wards_lower %>% gsub(x=., "audley's", 'audleys')
-  )
+# sure_start_2009 <-
+#   sure_start_2009 %>%
+#   mutate(
+#     wards_lower = wards_lower %>% gsub(x=., "audley's", 'audleys')
+#   )
 
 map_me <- wards_sf %>% left_join(sure_start_2009, by = c(ward_code = 'bestCode'))
+
+
+map_me %>% st_crs
 map_me$bestMatch %>% is.na %>% summary
 
 map_me <-
@@ -65,7 +75,8 @@ map_me <-
 
 ## map
 tmap_mode('view')
-map_me %>%
+ward_layer <- 
+  map_me %>%
   filter(
     !(`sure start centre` %>% is.na)
     ) %>% 
@@ -79,3 +90,11 @@ map_me %>%
   tm_scale_bar() + 
   tm_layout(title = 'Wards covered by Sure Start in 2009 (based on former Sure Start website)') #+
 #  tm_basemap("OpenStreetMap") 
+
+
+
+ward_layer + 
+  (ss_centres_sf %>%
+  tm_shape() +
+  tm_dots()
+  )
