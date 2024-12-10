@@ -32,6 +32,8 @@ As part of ongoing research, we are attempting to validate the coverage data wit
 
 - In June 2009 the sure start website went defunct and the every child matters website was created (http://www.dcsf.gov.uk/everychildmatters/). There is an updated list [here](https://web.archive.org/web/20090608220236/http://www.dcsf.gov.uk/everychildmatters/earlyyears/surestart/fundedsettings/northernireland/northernireland/). It holds entries to 2010 until 2013 when that website itself was closed. We checked that these records are identical to the ward list held in March 2009.
 
+For the veracity of the data, we note that the ward data for the 2009 DCSF website (currently the UK department for Education) is *compiled by data supplied to the department and centres are able to update this information* [source](https://web.archive.org/web/20101221081016/http://www.dcsf.gov.uk/everychildmatters/earlyyears/surestart/fundedsettings/childrenscentresmap/).
+
 ## Further information
 
 This work was supported and funded by UK Research and Innovation (ES/Z502558/1) and the UK Prevention Research Partnership Maternal and Child Health Network (MR/S037608/1). 
