@@ -2,7 +2,7 @@
 ## Goal: enter the Sure Start wards and compare to nearest fit then manual checks
 
 
-## Source is the 2008 NI Sure Start list (5th Nov)
+## Source is the NI Sure Start list (most record ward data from March 2009)
 ## https://webarchive.nationalarchives.gov.uk/ukgwa/20081105164100/http://www.surestart.gov.uk/aboutsurestart/help/contacts/northernireland/
 library(tidyverse)
 library(RecordLinkage)
