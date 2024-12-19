@@ -129,7 +129,6 @@ ss$`Dungannon Sure Start` <- c(
   'Moygashel (part ward)',
   'Mullaghmore (part ward)',
   'Castlecaulfield (part ward)',
-  'Coalisland South', #added 2011, could soa or ward - likely SOA
   'Coalisland North' # added 2011
 )
 
