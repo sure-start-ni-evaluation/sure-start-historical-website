@@ -44,7 +44,7 @@ ss <- list()
 
 ss$`Arke Sure Start` <- # supposedly set up in 2007
   c(
-  'Abbey Park', #  ward
+    'Abbey Park', #  ward
   'Callan Bridge', #  ward
   'Downs', #  ward
   'Keady', #  ward
@@ -57,14 +57,13 @@ ss$`kilkeel` <- #aka Mourne https://www.mindingyourhead.info/family-support-prog
   c(
     'Kilkeel Central 2 (SOA)',# 'Kilkeel Central' in 2011 but list as SOA in 2014 so likely mistake orignally
     'Kilkeel South 2 (SOA)', #'
-    )
+  )
 
 ss$`G-Old Community Sure Start` <-
   c('Gortalowry', 'Oldtown', 'Killymoon', 'Ardboe',
   'Dunamore', ## new by 2011. Dunamore is a village not a ward or SOA
   'Pomeroy' # new in 2011 (could ward or SOA) -- likely SOA
   )
-
 ss$`Dalriada Sure Start` <-
   c(
     'Armoy',
@@ -196,7 +195,9 @@ ss$`Strabane Sure Start` <- c(
 
 
 ss$`Little Hands Sure Start` <-
-  c('Creevagh', 'Springtown', 'Rosemount')
+  c('Creevagh', 'Springtown', 'Rosemount',
+  'Foylesprings 2 (SOA)' # added by 2014 
+  )
 
 ss$`Shantallow Sure Start` <-
   c('Shantallow East', 'Shantallow West', 'Carnhill', 'Culmore Area',
@@ -226,7 +227,8 @@ ss$`Dungiven Sure Start` <-
     'Glack',
     'Coolessan',
     'Greystone',
-    'Enagh (Limavady)' # +2011 ward
+    'Enagh (Limavady)', # +2011 ward
+    'Roeside (SOA)' #+ by 2014 likely SOA but could be ward
   )
 
 ss$`Last Sure Start` <- c('Lisanelly',
@@ -235,7 +237,9 @@ ss$`Last Sure Start` <- c('Lisanelly',
                           'Camowen',
                           'Strule',
                           'Fintona',
-                          'Termon')
+                          'Termon',
+                          'Gortrush' #+ by 2014 -- ward as also said on modern website -
+                          )
 
 ss$`Edenballymore Sure Start`<- c(
   'Brandywell',
@@ -255,7 +259,9 @@ ss$`Rainbow Sure Start` <-
     'Newtownstewart')
 
 ss$`Waterside Sure Start` <- 
-  c('Victoria', 'Ebrington', 'Clondermott', 'Enagh')
+  c('Victoria', 'Ebrington', 'Clondermott', 'Enagh',
+  'Caw' #unsure if Ward or SOA - added by 2014
+  )
 
 
 ## Eastern
@@ -278,10 +284,10 @@ ss$`Colin Neighbourhood Sure Start` <-
   c('Twinbrook',
     'Poleglass',
     'Colin Glen',
-    'Old Warren',
+#    'Old Warren', ## removed by 2014
     'Kilwee',
-    'Lagmore (Derriaghy)',
-    'Hillhall 1 (SOA)'
+    'Lagmore (Derriaghy)'
+#    'Hillhall 1 (SOA)' ## removed  by 2014!
     )
 
 ss$`Lower Ards Peninsula Sure Start` <- # aka sure start ards
