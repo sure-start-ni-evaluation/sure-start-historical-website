@@ -119,7 +119,7 @@ ss$`Clogher Valley Sure Start` <-
 
 ss$`South Armagh Sure Start` <-
   c('Bessbrook',
-    'Carnlough',
+    'Carnlough', # Mispelling of Camlough? Carnlough is a village in Antrim (opposite end of NI)
     'Creggan',
     'Crossmaglen',
     'Derrymore',
