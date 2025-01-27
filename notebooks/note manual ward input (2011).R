@@ -2,8 +2,8 @@
 ## Goal: enter the Sure Start wards and compare to nearest fit then manual checks
 
 
-## Source is the NI Sure Start list (most record ward data from March 2009)
-## https://webarchive.nationalarchives.gov.uk/ukgwa/20081105164100/http://www.surestart.gov.uk/aboutsurestart/help/contacts/northernireland/
+## Source is the NI Sure Start list ni gov direct 2014
+
 library(tidyverse)
 library(RecordLinkage)
 
@@ -42,9 +42,29 @@ check_names_char <-
 
 ss <- list()
 
+ss$`Arke Sure Start` <- # supposedly set up in 2007
+  c(
+  'Abbey Park', #  ward
+  'Callan Bridge', #  ward
+  'Downs', #  ward
+  'Keady', #  ward
+  'The Mall', #part ward according to their 2024 website
+  'Observatory', #part ward according to their 2024 website
+  'Augher' #  ward
+  )
+
+ss$`kilkeel` <- #aka Mourne https://www.mindingyourhead.info/family-support-programmes -- set up ub 2011
+  c(
+    'Kilkeel Central 2 (SOA)',# 'Kilkeel Central' in 2011 but list as SOA in 2014 so likely mistake orignally
+    'Kilkeel South 2 (SOA)', #'
+    )
 
 ss$`G-Old Community Sure Start` <-
-  c('Gortalowry', 'Oldtown', 'Killymoon', 'Ardboe')
+  c('Gortalowry', 'Oldtown', 'Killymoon', 'Ardboe',
+  'Dunamore', ## new by 2011. Dunamore is a village not a ward or SOA
+  'Pomeroy' # new in 2011 (could ward or SOA) -- likely SOA
+  )
+
 ss$`Dalriada Sure Start` <-
   c(
     'Armoy',
@@ -65,7 +85,8 @@ ss$`Coleraine Sure Start` <-
     'Central',
     'Churchlands',
     'CrossGlebe',
-    'Knocklyn and University')
+    'Knocklyn (Windyhall Estate)',
+    'University (Millburn Estate)')
 
 ss$`Ballymena South Sure Start` <-
   c(
@@ -89,25 +110,27 @@ ss$`Abbey Sure Start` <-
 
 ss$`Horizon Sure Start` <-
   c(
-    'Northlands',
+    'Northlands', # (C) -- what does C mean?
     'Sunnylands',
     'Clipperstown',
     'Love Lane',
-    'Antiville',
-    'Ballyloran and Craigyhill'
+    'Antiville', # (L) what does this mean
+    'Ballyloran',
+    'Craigyhill'
   )
 
 
 ss$`Dungannon Sure Start` <- c(
   'Ballysaggart',
-  'Benburb',
+  'Benburb (part ward)',
   'Coalisland South',
-  'Coolhill',
-  'Drumglass',
-  'Killymeal',
-  'Moygashel',
-  'Mullaghmore',
-  'Castlecaulfield'
+  'Coolhill (part ward)',
+  'Drumglass (part ward)',
+  'Killymeal (part ward)',
+  'Moygashel (part ward)',
+  'Mullaghmore (part ward)',
+  'Castlecaulfield (part ward)',
+  'Coalisland North' # added 2011
 )
 
 ss$`Clogher Valley Sure Start` <-
@@ -119,13 +142,15 @@ ss$`Clogher Valley Sure Start` <-
 
 ss$`South Armagh Sure Start` <-
   c('Bessbrook',
-    'Carnlough', # Mispelling of Camlough? Carnlough is a village in Antrim (opposite end of NI)
+    'Camlough',# 'Carnlough', previously spely
     'Creggan',
     'Crossmaglen',
     'Derrymore',
-    'Newtownhamilton')
+    'Newtownhamilton',
+    'Silver Bridge' # +2011 ward
+    )
 
-ss$`Orana Sure Start` <- c(
+ss$`Orana Sure Start` <- c( #aka Newry city sure start
   'Ballybot',
   'Daisyhill',
   'Drumalane',
@@ -146,19 +171,22 @@ ss$`Blossom Sure Start` <-
 ss$`Splash Sure Start` <-
   c('Church',
     'Court',
-    'Drumgas',
+    'Drumgask',
     'Drumgor',
     'Drumnamoe',
-    'Taghnevan')
+    'Taghnevan',
+    'Woodville 1 (SOA)', #added 2011
+    'Parkmore Housing Estate in Craigavon'
+    )
 
 ## `Western`
   
 ss$`Strabane Sure Start` <- c(
-  'North',
-  'South',
-  'East',
-  'West',
-  'Ballycolman',
+  'Ballycolman North', #Ballycolman
+  'Ballycolman South',
+  'Ballycolman East',
+  'Ballycolman West',
+#  'Ballycolman',
   'Sion Mills',
   'Finn',
   'Dunnamanagh',
@@ -170,13 +198,16 @@ ss$`Little Hands Sure Start` <-
   c('Creevagh', 'Springtown', 'Rosemount')
 
 ss$`Shantallow Sure Start` <-
-  c('Shantallow East', 'Shantallow West', 'Carnhill', 'Culmore Area')
+  c('Shantallow East', 'Shantallow West', 'Carnhill', 'Culmore Area',
+  'Ballynashallog' # added 2011 - ward
+  )
 
 ss$`Cherish Sure Start` <- 
   c(
   'Irvinestown',
   'Kesh',
-  'Ederney and Lack',
+  'Ederney',
+  'Lack',
   'Lisnarrick',
   'Ballinamallard',
   'Trillick',
@@ -193,7 +224,8 @@ ss$`Dungiven Sure Start` <-
     'Upper Glenshane',
     'Glack',
     'Coolessan',
-    'Greystone'
+    'Greystone',
+    'Enagh (Limavady)' # +2011 ward
   )
 
 ss$`Last Sure Start` <- c('Lisanelly',
@@ -221,20 +253,25 @@ ss$`Rainbow Sure Start` <-
     'Drumquin',
     'Newtownstewart')
 
-ss$`Waterside Sure Start` <- c('Victoria', 'Ebrington', 'Clondermott', 'Enagh')
+ss$`Waterside Sure Start` <- 
+  c('Victoria', 'Ebrington', 'Clondermott', 'Enagh')
 
 
 ## Eastern
 
 ss$`Glenbrook Sure Start` <-
-  c('Ardoyne', 'Cliftonville', 'Ligoniel') ## This ends in a , but no further values on webpage
+  c('Ardoyne', 
+  'Cliftonville', 
+  'Ligoniel') ## This ends in a , but no further values on webpage
 
 ss$`East Belfast Sure Start` <-
   c('Island',
     'The Mount',
     'Ballymacarett Woodstock',
     'Enler',
-    'Tullycarnet')
+    'Tullycarnet',
+    'Bloomfield 1 (SOA)'
+    )
 
 ss$`Colin Neighbourhood Sure Start` <-
   c('Twinbrook',
@@ -242,14 +279,19 @@ ss$`Colin Neighbourhood Sure Start` <-
     'Colin Glen',
     'Old Warren',
     'Kilwee',
-    'Lagmore (Derriaghy)')
+    'Lagmore (Derriaghy)',
+    'Hillhall 1 (SOA)'
+    )
 
-ss$`Lower Ards Peninsula Sure Start` <-
+ss$`Lower Ards Peninsula Sure Start` <- # aka sure start ards
   c('Scrabo',
     'Portavogie',
     'Kircubbin',
     'Ballywalter',
-    'Portaferry')
+    'Portaferry',
+    'Harbour 1 (SOA)', # +2011
+    'Conlig 3 (SOA)' # +2011
+    )
 
 ss$`SMILE Sure Start` <- c(
   'New Lodge',
@@ -263,36 +305,44 @@ ss$`Downpatrick Sure Start` <-
   c(
     'Cathedral',
     'Killough',
-    'Ballymote',
+    'Ballymote (Flying Horse)', # ward or soa
     'Ardglass',
     "Audley's Acre",
     'Strangford',
     'Quoile'
   )
 
-ss$`South Belfast Sure Start` <-
+ss$`South Belfast Sure Start` <- # aka inner city south belfast
   c('Ballynafeigh',
     'Shaftsbury',
     'Botanic',
-    'Blackstaff',
-    'Upper Malone')
+    'Blackstaff (Taughmonagh & Benmore Estates)'
+    #'Upper Malone' # upper malone no logner in 2011 -- maybe include else?
+    )
 
 ss$`Clan Mór Sure Start` <- c('Clonard', 'Falls')
 
 ss$`Shankill Sure Start` <-
-  c('Shankill Road',
+  c('Shankill', #previously just listed as shankill rd in 2009
     'Highfield',
     'Glencairn',
     'Woodvale',
     'Ballysillan',
-    'Crumlin')
+    'Crumlin (Belfast)')
 
 ss$`Beechmount Sure Start` <- c('Beechmount')
 
 ss$`Outer West Belfast Sure Start` <-
-  c('Andersonstown', 'Glencolin', 'Glen Rd', 'Ladybrook')
+  c('Andersonstown', 
+  'Glencolin', 
+  'Glen Rd', 
+  'Ladybrook')
 
-ss$`Saol Ur Sure Start` <- c('Falls Park', 'Upper Springfield', 'Whiterock')
+ss$`Saol Ur Sure Start` <- 
+  c('Falls Park', 
+  'Upper Springfield', 
+  'Whiterock'
+  )
 
 ## Those are 33 Sure start areas
 

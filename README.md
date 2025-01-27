@@ -26,6 +26,14 @@ Ward names were:
 
 As part of ongoing research, we are attempting to validate the coverage data with other sources, including information held by Sure Start centres. Ideally, we would like to distinguish which wards were in the original rollout of Sure Start (2000 - 2003) and which wards were added as part of the first expansion of the programme. 
 
+### Additional validation checks: 
+
+- We have checked with records held in the Wayback machine (which have wards going back to Jan 2009 for some Sure Starts) that there is no difference in wards between Jan and March 2009.
+
+- In June 2009 the sure start website went defunct and the every child matters website was created (http://www.dcsf.gov.uk/everychildmatters/). There is an updated list [here](https://web.archive.org/web/20090608220236/http://www.dcsf.gov.uk/everychildmatters/earlyyears/surestart/fundedsettings/northernireland/northernireland/). It holds entries to 2010 until 2013 when that website itself was closed. We checked that these records are identical to the ward list held in March 2009.
+
+For the veracity of the data, we note that the ward data for the 2009 DCSF website (currently the UK department for Education) is *compiled by data supplied to the department and centres are able to update this information* [source](https://web.archive.org/web/20101221081016/http://www.dcsf.gov.uk/everychildmatters/earlyyears/surestart/fundedsettings/childrenscentresmap/).
+
 ## Further information
 
 This work was supported and funded by UK Research and Innovation (ES/Z502558/1) and the UK Prevention Research Partnership Maternal and Child Health Network (MR/S037608/1). 
